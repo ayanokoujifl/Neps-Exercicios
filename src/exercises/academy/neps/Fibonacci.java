@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+
 public class Fibonacci {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Map<Integer, Integer> fibonacci = new HashMap<>();
 		int n;
-		int aux1 = 1, aux2 = 1;
-		int fibPenult = aux2, fibUlt = aux1;
+		int fibPenult = 1, fibUlt = 1;
 		n = sc.nextInt();
 		if (n <= 2) {
 			System.out.println(1);
