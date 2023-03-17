@@ -16,11 +16,11 @@ public class Consecutivos {
 				points++;
 			} else {
 				max = Integer.max(max, points);
-				points=1;
-				aux=v;
+				points = 1;
+				aux = v;
 			}
 		}
-		max=Integer.max(max, points);
+		max = Integer.max(max, points);
 		System.out.println(max);
 		ler.close();
 	}

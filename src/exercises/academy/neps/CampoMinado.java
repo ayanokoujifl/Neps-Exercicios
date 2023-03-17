@@ -11,6 +11,7 @@ public class CampoMinado {
 		int n = sc.nextInt();
 		List<Integer> numbers = new ArrayList<>();
 		Integer arr[] = new Integer[n];
+
 		for (int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 		}
@@ -60,8 +61,8 @@ public class CampoMinado {
 						}
 					}
 				}
-			}else {
-				if(arr[i]==1) {
+			} else {
+				if (arr[i] == 1) {
 					count++;
 				}
 			}

@@ -16,7 +16,7 @@ public class Medalhas {
 			if (t2 <= t3) {
 				System.out.println(2);
 				System.out.println(3);
-			}else {
+			} else {
 				System.out.println(3);
 				System.out.println(2);
 			}
@@ -25,7 +25,7 @@ public class Medalhas {
 			if (t1 <= t3) {
 				System.out.println(1);
 				System.out.println(3);
-			}else {
+			} else {
 				System.out.println(3);
 				System.out.println(1);
 			}
@@ -34,7 +34,7 @@ public class Medalhas {
 			if (t1 <= t2) {
 				System.out.println(1);
 				System.out.println(2);
-			}else {
+			} else {
 				System.out.println(2);
 				System.out.println(1);
 			}

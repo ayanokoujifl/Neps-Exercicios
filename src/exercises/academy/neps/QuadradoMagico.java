@@ -30,13 +30,13 @@ public class QuadradoMagico {
 			listaColunas.add(somaColunas[i]);
 		}
 
-		if(listaColunas.contains(0) || listaLinhas.contains(0)) {
-			
+		if (listaColunas.contains(0) || listaLinhas.contains(0)) {
+
 		}
-		
+
 		if (listaColunas.equals(listaLinhas)) {
 			System.out.println(listaLinhas.get(0));
-		}else {
+		} else {
 			System.out.println("-1");
 		}
 		ler.close();

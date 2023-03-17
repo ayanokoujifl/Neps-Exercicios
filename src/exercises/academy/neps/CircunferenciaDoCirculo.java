@@ -6,7 +6,7 @@ public class CircunferenciaDoCirculo {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		final Double pi = 3.1416;
+		final double pi = 3.1416;
 		Double raio = sc.nextDouble();
 		System.out.printf("%.2f", pi * raio * raio);
 	}

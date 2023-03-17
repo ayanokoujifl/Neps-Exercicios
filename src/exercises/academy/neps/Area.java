@@ -9,6 +9,6 @@ public class Area {
 		int a;
 		a = ler.nextInt();
 
-		System.out.println(a*a);
+		System.out.println(a * a);
 	}
 }

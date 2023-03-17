@@ -7,7 +7,7 @@ public class RepetirXVezes {
 		Scanner ler = new Scanner(System.in);
 
 		int x = ler.nextInt();
-		for(int i =0;i<x;i++) {
+		for (int i = 0; i < x; i++) {
 			System.out.println("NepsAcademy eh Sucesso");
 		}
 		ler.close();

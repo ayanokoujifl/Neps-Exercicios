@@ -31,7 +31,7 @@ public class CodigoOBI2015 {
 
 /*
  * int x = ler.nextInt(); int y = 0;
- * 
+ *
  * for (int i = 1; i <= x; i++) { int n = ler.nextInt(); if (n == 1) { n =
  * ler.nextInt(); i++; if (i == x) { break; } if (n == 0) { n = ler.nextInt();
  * i++; if (n == 0) { y += 1; } else { i++; if (i == x) { break; } n =

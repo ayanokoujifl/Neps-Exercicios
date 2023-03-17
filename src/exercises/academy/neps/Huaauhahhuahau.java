@@ -1,7 +1,5 @@
 package exercises.academy.neps;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class Huaauhahhuahau {
@@ -15,9 +13,9 @@ public class Huaauhahhuahau {
 
 		String frente = "";
 		String tras = "";
-		for (int i = 0; i < letras.length; i++) {
-			frente = frente + letras[i];
-			tras = letras[i] + tras;
+		for (String element : letras) {
+			frente = frente + element;
+			tras = element + tras;
 		}
 
 		if (frente.equals(tras)) {

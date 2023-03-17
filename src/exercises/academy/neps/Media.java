@@ -1,4 +1,4 @@
-	package exercises.academy.neps;
+package exercises.academy.neps;
 
 import java.util.Scanner;
 

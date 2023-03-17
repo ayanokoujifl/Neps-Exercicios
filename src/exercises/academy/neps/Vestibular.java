@@ -13,8 +13,8 @@ public class Vestibular {
 		String[] arrGabarito = gabarito.split("");
 		String[] arrRespostas = respostas.split("");
 
-		for(int i=0;i<numeroQuestoes;i++) {
-			if(arrGabarito[i].equals(arrRespostas[i])) {
+		for (int i = 0; i < numeroQuestoes; i++) {
+			if (arrGabarito[i].equals(arrRespostas[i])) {
 				acertos++;
 			}
 		}

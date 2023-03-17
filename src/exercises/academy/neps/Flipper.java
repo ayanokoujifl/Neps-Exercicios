@@ -11,11 +11,11 @@ public class Flipper {
 		p = ler.nextInt();
 		r = ler.nextInt();
 
-		if(p==0) {
+		if (p == 0) {
 			System.out.println("C");
-		}else if(p==1 && r==1) {
+		} else if (p == 1 && r == 1) {
 			System.out.println("A");
-		}else {
+		} else {
 			System.out.println("B");
 		}
 	}

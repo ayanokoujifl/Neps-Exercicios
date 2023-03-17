@@ -13,15 +13,15 @@ public class Raizes {
 
 		int n = ler.nextInt();
 		Locale l = new Locale("en", "US");
-		DecimalFormatSymbols symbol= new DecimalFormatSymbols();
+		DecimalFormatSymbols symbol = new DecimalFormatSymbols();
 		symbol.setDecimalSeparator('.');
-		DecimalFormat format=new DecimalFormat("########0.0000",symbol);
+		DecimalFormat format = new DecimalFormat("########0.0000", symbol);
 		List<Double> raizes = new ArrayList<>();
 		for (int i = 1; i <= n; i++) {
 			Double x = ler.nextDouble();
 			raizes.add(Math.sqrt(x));
 		}
-		raizes.stream().forEach(x->System.out.println(format.format(x)));
+		raizes.stream().forEach(x -> System.out.println(format.format(x)));
 		ler.close();
 	}
 }

@@ -12,7 +12,7 @@ public class Garcom {
 			int l = ler.nextInt();
 			int c = ler.nextInt();
 			if (l > c) {
-				soma+=c;
+				soma += c;
 			}
 		}
 		System.out.println(soma);
